@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    font-size: 15px;
+    line-height: 1.5;
+}
+/*
+ vị trí,kích thước(width ,height),màu sắc,kiểu dáng(hình tròn vuông bo góc...)
+ -Lamf từ ngoài vào trong,từ trên xuống dưới,từ tổng quan đến chi tiết
+*/
+
+#main{
+
+}
+
+#header {
+
+
+}
+
+#home {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 54px;
+    padding: 8px 16px;
+
+}
+
+#home .home-brand {
+    float: left;
+    text-decoration: none;
+    letter-spacing: 4px;
+    color: #000;
+}
+
+#nav {
+    float: right;
+}
+
+#nav li {
+    display: inline;
+    padding: 8px 16px;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+#nav > li > a {
+    text-decoration: none;
+    color: #000;
+    line-height: 54px;
+}
+
+.bg-img {
+    padding-top: 50%;
+    background: url('/assets/img/hamburger.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+#content{
+
+}
